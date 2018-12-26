@@ -1,4 +1,4 @@
-# Exoplanet ML
+# DATAGATE
 
 Data Gate by Ouchhh New Media Agency, proposes an aesthetic approach to Artificial Intelligence powered exploration of the Kepler Data.
 
@@ -6,13 +6,6 @@ The data of Kepler mission is a very large spreadsheet comprised of information 
 
 In addition to these spreadsheets, the publicly available data includes the raw light curve readings, which were used in the detection of the aforementioned planets. This data doesn’t readily make these planets detectable, but various AI methods have been used to analyze and extract planetary data from these light curves.
 Due to its complexity and size, it is impossible to visualize these as is. So we propose an AI based approach to interpret and aestheticize this information. Our aim is to analyze this data through AI, strictly for an alternative, visual representation of this data. This project does not and cannot propose to detect new planets, which has been excellently done and publicly made available.
-
-
-## Code Author
-
-Chris Shallue: [@cshallue](https://github.com/cshallue)
-
-We 
 
 ## Walkthrough
 
@@ -68,6 +61,14 @@ C++ light curve operations.
 * **PyDl** ([instructions](https://pypi.python.org/pypi/pydl))
 * **Bazel** ([instructions](https://docs.bazel.build/versions/master/install.html))
 * **Abseil Python Common Libraries** ([instructions](https://github.com/abseil/abseil-py))
+
+## Original Author
+
+Chris Shallue: [@cshallue](https://github.com/cshallue)
+
+## Creative 
+
+Ouchhh Studio
 
 ## Run Unit Tests
 
