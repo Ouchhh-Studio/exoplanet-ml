@@ -7,7 +7,7 @@ The data of Kepler mission is a very large spreadsheet comprised of information 
 In addition to these spreadsheets, the publicly available data includes the raw light curve readings, which were used in the detection of the aforementioned planets. This data doesn’t readily make these planets detectable, but various AI methods have been used to analyze and extract planetary data from these light curves.
 Due to its complexity and size, it is impossible to visualize these as is. So we propose an AI based approach to interpret and aestheticize this information. Our aim is to analyze this data through AI, strictly for an alternative, visual representation of this data. This project does not and cannot propose to detect new planets, which has been excellently done and publicly made available.
 
-## Walkthrough
+## ORIGINAL WALKTHROUGH
 
 You can jump straight to the [AstroNet walkthrough](exoplanet-ml/astronet/README.md#walkthrough).
 
@@ -47,7 +47,9 @@ C++ light curve operations.
 
 ## Additional tools for visualizations and custom pre-proprocessing.
 
+These tools examplify the process we've gone through whilst preparing the data to be visualized in various procedural design software.
 
+Also, we present minor Processing tools for visualizing various data.
 
 # Setup
 
@@ -70,25 +72,10 @@ Chris Shallue: [@cshallue](https://github.com/cshallue)
 
 Ouchhh Studio
 
-## Run Unit Tests
-
-Verify that all dependencies are satisfied by running the unit tests:
-
-```bash
-cd exoplanet-ml  # Bazel must run from a directory with a WORKSPACE file
-bazel test astronet/... astrowavenet/... light_curve/... tf_util/... third_party/...
-```
-
 # Citation
 
-If you find this code useful, please cite our paper:
-
-Shallue, C. J., & Vanderburg, A. (2018). Identifying Exoplanets with Deep
-Learning: A Five-planet Resonant Chain around Kepler-80 and an Eighth Planet
-around Kepler-90. *The Astronomical Journal*, 155(2), 94.
-
-Full text available at [*The Astronomical Journal*](http://iopscience.iop.org/article/10.3847/1538-3881/aa9e09/meta).
+Please refer to the master branch for more information.
 
 # Disclaimer
 
-This is not an official Google product.
+Ouchhh studio is not affiliated with Google, NASA or Kepler Project.
