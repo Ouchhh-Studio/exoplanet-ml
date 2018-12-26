@@ -1,10 +1,18 @@
 # Exoplanet ML
 
-Machine learning models and utilities for exoplanet science.
+Data Gate by Ouchhh New Media Agency, proposes an aesthetic approach to Artificial Intelligence powered exploration of the Kepler Data.
+
+The data of Kepler mission is a very large spreadsheet comprised of information dedicated to the detected exoplanets. Each table in these spreadsheets contains around a hundred columns. Each of these columns represent an aspect, a feature of these planets.
+
+In addition to these spreadsheets, the publicly available data includes the raw light curve readings, which were used in the detection of the aforementioned planets. This data doesn’t readily make these planets detectable, but various AI methods have been used to analyze and extract planetary data from these light curves.
+Due to its complexity and size, it is impossible to visualize these as is. So we propose an AI based approach to interpret and aestheticize this information. Our aim is to analyze this data through AI, strictly for an alternative, visual representation of this data. This project does not and cannot propose to detect new planets, which has been excellently done and publicly made available.
+
 
 ## Code Author
 
 Chris Shallue: [@cshallue](https://github.com/cshallue)
+
+We 
 
 ## Walkthrough
 
@@ -12,7 +20,7 @@ You can jump straight to the [AstroNet walkthrough](exoplanet-ml/astronet/README
 
 Otherwise, click through to the desired directory as outlined below.
 
-## Directories
+## Original Directories
 
 [astronet/](exoplanet-ml/astronet/)
 
@@ -42,6 +50,10 @@ C++ light curve operations.
 [third_party/](exoplanet-ml/third_party/)
 
 * Utilities derived from third party code.
+
+
+## Additional tools for visualizations and custom pre-proprocessing.
+
 
 
 # Setup
